@@ -1,0 +1,72 @@
+/*
+15_Puzzle.css
+Class: CSE 264 - Fall 2022
+Author: Shuang Lin
+*/
+
+html{
+    margin: auto;
+    display:grid;
+}
+
+body{
+    margin: auto;
+    background-color: #e4cae0e5;
+}
+
+table{
+    text-align: center;
+    position: relative;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+    padding: 5px;
+    border-radius: 1rem;  
+    background-color: white;
+}
+
+#Header{
+    margin: auto;
+    color: #694477;
+    font-size: 500%;
+    text-align: center;
+}
+    
+
+#Buttons{
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#Game_Board{
+    margin: auto;
+    display: grid;
+    box-shadow: 10px 20px #694477;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding-block: 25%;
+}
+
+#Win_Board{
+    background-color: gold;
+}
+
+.Cell{
+    min-height: 50px;
+    min-width: 50px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid #e4cae0e5;
+    border-radius: 1rem;  
+    background-color: white;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+#Footer{
+    margin: auto;
+    align-self: center;
+    padding-top: 15%;
+}
