@@ -1,5 +1,8 @@
 # Creating a “15 Puzzle”
 
+- Author: Shuang Lin
+- Email: shuanglin3359@gmail.com
+
 ### CSE 264 – Web Systems Programming,
 
 - Due Sunday, Sept 18th, 11:59pm
