@@ -332,22 +332,8 @@ footer {
     text-align: center;
     font-size: 15px;
 }
-#size-value{
-    padding: 2px;
-    width: 100%;
-    border: 2px solid var(--accent);
-    border-radius: 5px;
-    background-color: white;
-    resize: none;
-}
-textarea {
-    width: 100%;
-    height: 200px;
-    box-sizing: border-box;
-    border: 2px solid var(--accent);
-    border-radius: 5px;
-    background-color: white;
-    resize: none;
+#go-back {
+    text-align: center;
 }
 button {
     background-color: var(--secondary);
