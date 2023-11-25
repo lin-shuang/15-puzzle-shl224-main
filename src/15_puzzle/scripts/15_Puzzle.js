@@ -149,6 +149,7 @@ function switchCell(cell, cellTarget){
 
 function reset(){
     board.id = "Board";
+    board.className = "";
     turns = 0;
     let cellCount = 1;
     for(let i = 1; i <= 4; i++){
@@ -209,7 +210,7 @@ function checkWin(){
             }
         }
         if(count == 16){
-            board.id = "Win_Board";
+            board.className = "Win_Board";
         }
     }
     return 0;

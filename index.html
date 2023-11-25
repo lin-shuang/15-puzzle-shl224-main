@@ -12,21 +12,76 @@ Homework 3 - 15 Puzzle
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>15 Puzzle</title>
-        <link rel="stylesheet" href="15_Puzzle.css">
+        <link rel="stylesheet" href="./src/15_puzzle/15_Puzzle.css">
+        <link rel="stylesheet" href="./src/shuang-lin/fonts/font-awesome-4.7.0/css/font-awesome.css">
     </head>
 
     <body>
-        <h1 id = "Header">15 Puzzle</h1>
+        <!-- Header Bar -->
+        <header>
+            <nav>
+            <div class="logo"><b>Shuang Lin</b></div>
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="menu-overlay" id="menu-overlay"></div>
 
-        <div id = "Buttons">
-            <button id = "Button_Reset"> Reset </button>
-            <button id = "Button_Scramble"> Scramble </button>
-        </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="https://lin-shuang.github.io/#home"><b>Home</b></a></li>
+                <li><a href="https://lin-shuang.github.io/#projects"><b>Projects</b></a></li>
+                <li><a href="https://lin-shuang.github.io/src/shuang-lin/resume/Shuang_Lin_Resume.pdf" download="Shuang_Lin_Resume.pdf" target="_blank"><b>Resume</b></a></li>
+            </ul>
+            </nav>
+        </header>
+        <!-- Background Overlay -->
+        <div class="overlay" id="overlay"></div>
 
-        <div id = "Game_Board"></div>
+        <main>
+            <section class="separator"></section>
+            <div class="social-icons">
+                <a href="https://lin-shuang.github.io/src/pages/web-games-tools.html">
+                    <button id="button-back">Back</button>
+                </a>
+                <a href="https://github.com/lin-shuang/15-puzzle-shl224-main" target="_blank">
+                    <i class="fa fa-github" id="github-current"></i>
+                </a>
+            </div>
 
-        <p id = "Footer">Copyright © Shuang Lin 2022</p>
-        
-        <script src="15_Puzzle.js"></script>
+            <section class="separator"></section>
+            <h1 id = "Header">15 Puzzle</h1>
+
+            <div class="info"><b>To play, click Scramble.</b></div>
+            <div class="info"><b>Move the cells back into their sorted positions to win.</b></div>
+            <div id = "Buttons">
+                <button id = "Button_Reset"> Reset </button>
+                <button id = "Button_Scramble"> Scramble </button>
+            </div>
+
+            <div id="Game_Board"></div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div>&copy; 2023 Shuang Lin</div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/shuang__________" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shuanglin-/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://www.youtube.com/@linshuang" target="_blank">
+                    <i class="fa fa-youtube"></i>
+                </a>
+                <a href="https://github.com/lin-shuang" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+        </footer>
+
+        <script src="./src/15_puzzle/scripts/15_Puzzle.js"></script>
+        <script src="./src/shuang-lin/scripts/nav-links.js"></script>
     </body>
 </html>
